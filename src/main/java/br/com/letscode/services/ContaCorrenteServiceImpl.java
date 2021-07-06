@@ -17,6 +17,9 @@ public class ContaCorrenteServiceImpl implements ContaService {
     @Inject
     private Conta conta;
 
+    //@Inject
+    //private ContaFactory contaFactory;
+
     @Override
     public Conta criarConta(Conta conta) {
         conta.setCaminhoArquivo("[Teste] Conta corrente"); // Dao

@@ -32,7 +32,7 @@ public class ClienteFileDaoImpl implements ClienteDao {
     }
 
     @Override
-    public List<Cliente> lerArquivo() {
+    public List<Cliente> lerArquivo(String nome) throws IOException {
         return clientes;
     }
 }
